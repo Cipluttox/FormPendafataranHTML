@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Formulir Pendaftaran</header>
+        <form action="#" class="form">
+            <div class="input-data">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" placeholder="Masukan Nama Lengkap" required>
+            </div>
+            <div class="input-data">
+                <label for="email">Email</label>
+                <input type="text" placeholder="Masukan Email" required>
+            </div>
+
+            <div class="coloum">
+                <div class="input-data">
+                    <label for="email">Nomer Telepon</label>
+                    <input type="number" placeholder="No Telepon" required>
+                </div>
+                <div class="input-data">
+                    <label for="email">Tanggal Lahir</label>
+                    <input type="date" placeholder="Masukan Tanggal Lahir" required>
+                </div>
+            </div>
+            
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-list">
+                    <div class="gender-option">
+                        <input type="radio" id="check-male" name="gender" checked>
+                        <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender-option">
+                        <input type="radio" id="check-female" name="gender">
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender-option">
+                        <input type="radio" id="check-none" name="gender">
+                        <label for="check-none">Not to say</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-data">
+                <label for="email">Alamat</label>
+                <input type="text" placeholder="Masukan Alamat" required>
+            </div>
+
+            <div class="section-list">
+                <h3>Pilihan Job</h3>
+                <div class="section">
+                    <select id="section-job" name="job">
+                        <option value="">-- Pilih Pekerjaan --</option>
+                        <option value="developer">Developer</option>
+                        <option value="designer">Designer</option>
+                        <option value="marketing">Marketing</option>
+                    </select>
+                </div>
+            </div>
+            
+            <button>
+                <h3>Kirim</h3>
+            </button>
+
+        </form>
+    </div>
+</body>
+</html>
